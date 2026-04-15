@@ -201,7 +201,17 @@ app.get('/api/analyze-live', async (req, res) => {
                 { text: `Disappointed with the ${keyword} customer support.`, username: genUser() },
                 { text: `Can't say much about ${keyword} yet, waiting for more details.`, username: genUser() },
                 { text: `Loving every bit of this ${keyword} software!`, username: genUser() },
-                { text: `Terrible experience with ${keyword}, would not recommend to anyone.`, username: genUser() }
+                { text: `Terrible experience with ${keyword}, would not recommend to anyone.`, username: genUser() },
+                { text: `The ${keyword} CEO is a complete idiot. Worst company ever, I hope they go bankrupt.`, username: genUser() },
+                { text: `Are you kidding me? ${keyword} support is non-existent. I want my money back!!!`, username: genUser() },
+                { text: `I'm going to sue ${keyword} for what they did. This is a scam!`, username: genUser() },
+                { text: `Shut up and take my money! ${keyword} is the best thing since sliced bread.`, username: genUser() },
+                { text: `Their new policy is discriminatory. I will never buy from ${keyword} again.`, username: genUser() },
+                { text: `Who designed this? A moron? The UI for ${keyword} makes me want to puke.`, username: genUser() },
+                { text: `They should all be fired. The incompetence at ${keyword} is disgusting.`, username: genUser() },
+                { text: `Honestly, ${keyword} is just average. Nothing special, but it works.`, username: genUser() },
+                { text: `I will attack anyone who says ${keyword} is bad. Just kidding, but seriously it's great!`, username: genUser() },
+                { text: `The latest update broke my entire system. Complete garbage. Fix your stupid app.`, username: genUser() }
             ];
         }
 
@@ -279,7 +289,17 @@ app.get('/api/toxic-analytics', async (req, res) => {
                 { text: `Disappointed with the ${keyword} customer support.`, username: genUser() },
                 { text: `Can't say much about ${keyword} yet, waiting for more details.`, username: genUser() },
                 { text: `Loving every bit of this ${keyword} software!`, username: genUser() },
-                { text: `Terrible experience with ${keyword}, would not recommend to anyone.`, username: genUser() }
+                { text: `Terrible experience with ${keyword}, would not recommend to anyone.`, username: genUser() },
+                { text: `The ${keyword} CEO is a complete idiot. Worst company ever, I hope they go bankrupt.`, username: genUser() },
+                { text: `Are you kidding me? ${keyword} support is non-existent. I want my money back!!!`, username: genUser() },
+                { text: `I'm going to sue ${keyword} for what they did. This is a scam!`, username: genUser() },
+                { text: `Shut up and take my money! ${keyword} is the best thing since sliced bread.`, username: genUser() },
+                { text: `Their new policy is discriminatory. I will never buy from ${keyword} again.`, username: genUser() },
+                { text: `Who designed this? A moron? The UI for ${keyword} makes me want to puke.`, username: genUser() },
+                { text: `They should all be fired. The incompetence at ${keyword} is disgusting.`, username: genUser() },
+                { text: `Honestly, ${keyword} is just average. Nothing special, but it works.`, username: genUser() },
+                { text: `I will attack anyone who says ${keyword} is bad. Just kidding, but seriously it's great!`, username: genUser() },
+                { text: `The latest update broke my entire system. Complete garbage. Fix your stupid app.`, username: genUser() }
             ];
         }
 
