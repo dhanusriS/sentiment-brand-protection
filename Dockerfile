@@ -1,6 +1,6 @@
 # Multi-stage Dockerfile for Twitter Sentiment Analysis App
 # Stage 1: Build frontend
-FROM node:18-alpine AS frontend-builder
+FROM node:20-alpine AS frontend-builder
 WORKDIR /app/frontend
 COPY frontend/package*.json ./
 RUN npm ci
@@ -8,7 +8,7 @@ COPY frontend/ ./
 RUN npm run build
 
 # Stage 2: Backend with Python support
-FROM node:18-alpine
+FROM node:20-alpine
 RUN apk add --no-cache python3 py3-pip
 
 WORKDIR /app
